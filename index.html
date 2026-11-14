@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Inter:wght@400;500;700&family=Manrope:wght@500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500&family=Poppins:wght@400;500;600;900&family=Instrument+Serif&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add('js')</script>
 <link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
     <nav aria-label="Navigacija"><ul>
       <li><a href="#o-klubu">O klubu</a></li><li><a href="#aktivnosti">Projekti</a></li><li><a href="#dogadjaji">Događaji</a></li><li><a href="#tim">Tim</a></li>
     </ul></nav>
-    <div class="nav-cta"><a class="btn btn-teal btn-nav" href="#kontakt">Pridruži se</a><button class="burger" type="button" aria-label="Otvori meni" aria-controls="mmenu" aria-expanded="false"><span></span><span></span></button></div>
+    <div class="nav-cta"><a class="btn btn-teal btn-nav" href="#obavestenje">Pridruži se</a><button class="burger" type="button" aria-label="Otvori meni" aria-controls="mmenu" aria-expanded="false"><span></span><span></span></button></div>
   </div></div>
 </div>
 
@@ -38,7 +39,7 @@
       <li><a href="#faq" style="--i:4">FAQ</a></li>
       <li><a href="#edukacija" style="--i:5">Edukacija</a></li>
   </ul></nav>
-  <div class="wrap mm-foot"><a class="btn btn-teal" href="#kontakt">Pridruži se</a><div class="soc"><a href="https://www.instagram.com/ikstudenatafona/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a><a href="https://www.linkedin.com/company/investicioni-klub-studenata-fona" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a></div></div>
+  <div class="wrap mm-foot"><a class="btn btn-teal" href="#obavestenje">Pridruži se</a><div class="soc"><a href="https://www.instagram.com/ikstudenatafona/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a><a href="https://www.linkedin.com/company/investicioni-klub-studenata-fona" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a></div></div>
 </div>
 
 <header class="hero" id="top">
@@ -116,12 +117,12 @@
       <nav aria-label="Glavna navigacija"><ul>
         <li><a href="#o-klubu">O klubu</a></li><li><a href="#aktivnosti">Projekti</a></li><li><a href="#dogadjaji">Događaji</a></li><li><a href="#tim">Tim</a></li>
       </ul></nav>
-      <div class="nav-cta"><a class="btn btn-teal btn-nav" href="#kontakt">Pridruži se</a><button class="burger" type="button" aria-label="Otvori meni" aria-controls="mmenu" aria-expanded="false"><span></span><span></span></button></div>
+      <div class="nav-cta"><a class="btn btn-teal btn-nav" href="#obavestenje">Pridruži se</a><button class="burger" type="button" aria-label="Otvori meni" aria-controls="mmenu" aria-expanded="false"><span></span><span></span></button></div>
     </div>
   </div>
   <div class="wrap hero-body" style="width:100%">
     <h1>Razmišljaj dugoročno. <em>Razumi tržišta.</em></h1>
-    <a class="btn btn-teal btn-nav hero-cta" href="#kontakt">Pridruži se</a>
+    <a class="btn btn-teal btn-nav hero-cta" href="#obavestenje">Pridruži se</a>
     <p class="lead">Zajednica studenata koji istražuju <b>svet investiranja</b>, analiziraju kompanije i <b>uče da razmišljaju</b> izvan dnevnih promena na tržištu.</p>
   </div>
 </header>
@@ -373,6 +374,8 @@
         <li><a href="https://www.instagram.com/maja.jakovljevic/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a></li>
       </ul>
     </article>
+    <!-- Logistika i projekti: privremeno sklonjeno dok se ne izabere lider. Kartica ide kao 5. po redu (posle Maje, pre Andreja).
+         Kad se vrati: ubaci ime, sliku i linkove, skloni komentar i u css/style.css obriši pravila .person:nth-child(6) i .person:nth-child(7) (i njihovo "grid-column:auto" u media upitu), da se vrati raspored 2 + 3 + 3.
     <article class="person reveal">
       <div class="media"><img src="assets/milos-pavlovic.jpg" alt="Ime i prezime" loading="lazy"></div>
       <h3>Ime i prezime</h3><span>Logistika i projekti</span>
@@ -381,6 +384,7 @@
         <li><a href="https://www.instagram.com/ikstudenatafona/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a></li>
       </ul>
     </article>
+    -->
     <article class="person reveal">
       <div class="media"><img src="assets/andrej-vuckovic.jpg" alt="Andrej Vučković" loading="lazy"></div>
       <h3>Andrej Vučković</h3><span>CR</span>
@@ -465,7 +469,7 @@
 <section class="process" id="prijava"><div class="wrap">
   <div class="stage reveal" id="stage">
     <div class="intro"><span class="eyebrow">Kako postati član</span><h2>Tri koraka do <em>članstva</em></h2>
-      <p>Selekcija se održava jednom godišnje, na početku akademske godine. Broj članova nije ograničen, uvek smo otvoreni za ljude koji se trude.</p><a class="btn btn-teal" href="#kontakt">Prijavi se</a></div>
+      <p>Selekcija se održava jednom godišnje, na početku akademske godine. Broj članova nije ograničen, uvek smo otvoreni za ljude koji se trude.</p><a class="btn btn-teal" href="#obavestenje">Prijavi se</a></div>
     <svg class="curve" id="curve" aria-hidden="true">
       <defs><linearGradient id="curveGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
         <stop offset="0" stop-color="#00d09c" stop-opacity="0"/>
@@ -506,9 +510,8 @@
       <nav class="fm" aria-label="Meni"><b>Meni</b><ul>
         <li><a href="#o-klubu">O klubu</a></li><li><a href="#aktivnosti">Projekti</a></li><li><a href="#tim">Tim</a></li><li><a href="#edukacija">Edukacija</a></li><li><a href="#kontakt">Kontakt</a></li><li><a href="#">Blog</a></li></ul></nav>
     </div>
-    <p class="copy2">© 2026 Investicioni klub studenata FON-a</p>
   </div>
-  <div class="fr">
+  <div class="fr" id="obavestenje">
     <h3>Obavesti me kad počnu prijave</h3>
     <form onsubmit="return false"><input type="email" placeholder="Upiši email" aria-label="Email adresa"><button class="btn btn-teal" type="submit">Prijavi me</button></form>
     <div class="soc">
@@ -516,7 +519,7 @@
       <a href="https://www.linkedin.com/company/investicioni-klub-studenata-fona" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a>
     </div>
   </div>
-</div></footer>
+</div><div class="wrap reveal"><p class="copy2">© 2026 Investicioni klub studenata FON-a</p></div></footer>
 
 <!-- LIGHTBOX -->
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galerija fotografija" aria-hidden="true">
